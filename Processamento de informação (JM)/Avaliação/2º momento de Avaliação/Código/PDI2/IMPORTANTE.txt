@@ -1,0 +1,20 @@
+Trabalho realizado por:
+-> Miguel Magalhães, nº2021103166;
+->Gonçalo Silva, nº2020101055;
+->Gonçalo Pereira, nº2020101880.
+
+Para um bom funcionamento do código, é importante ter em conta:
+
+	Verificar se os servidores do XAMPP estão ligados e a funcionar devidamente.
+
+	Verificar se a base de dados está inserida no phpmyadmin.
+
+	Verificar se a pasta que contém os código ( a pasta "PDI") está inserida dentro da pasta "htdocs" do XAMPP.
+
+
+Para aceder ao site:
+
+
+	--> localhost/PDI ou localhost/PDI/index.php;
+
+	--> Verificar se o servidor "Apache" e "MySQL" estão ligados e a funcionar corretamente (se ambos estão com a cor "verde" no fundo).

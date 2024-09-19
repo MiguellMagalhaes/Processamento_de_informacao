@@ -1,0 +1,79 @@
+Trabalho realizado por:
+-> Miguel Magalhães, nº2021103166;
+->Gonçalo Silva, nº2020101055;
+->Gonçalo Pereira, nº2020101880.
+
+Para um bom funcionamento do código, é importante te em conta:
+
+	Verificar se os servidores do XAMPP estão ligados e a funcionar devidamente.
+
+	Colocar todos os arquivos excel dentro da pasta "Dataset". Esta mesmo encontra-se vazia, pois os diversos arquivos excel's ocupam demasiado memória para serem alocados no infoestudante (com estes incluídos, ultrapassa o limite de tamanho permitido na plataforma infoestudante).
+
+	Instalação correta da versão do Python: Python Version:3.10.11
+
+
+	Instalar bibliotecas necessárias (comandos para instalação o terminal encontram-se a seguir dispostos):
+
+	-->pip install pandas.
+	-->pip install mysql-connector-python.
+
+
+	Importar bibliotecas necessárias no código:
+
+	-->import pandas as pd;
+	-->import mysql.connector;
+	-->import os.
+	
+	
+	Alterar os diretórios para os do computador que estão a ser usados no código:
+
+	--> Exemplo: "C:/Users/migue/OneDrive/Ambiente de Trabalho/ProjetoPDI/Output/Output.xml"
+	NOTA:Trocar a barra da "\" para "/" quando o "Path" for copiado.
+
+
+
+	O "Output.xml" já apresenta um exemplo de uma extração de uma folha de uma tabela. Caso seja necessário fazer um novo teste, é aconselhável apagar todos os dados dentro do "Output.xml" para verificar o seu funcionamento. 
+
+	Importar o arquivo dentro da pasta "Base de dados" chamada "habilitacoesnaofinal" para o phpmyadmin.
+	A base de dados que está apresentada na pasta que foi enviada ("C:\Users\migue\OneDrive\Ambiente de Trabalho\ProjetoPDI\Base de dados") apresenta já exportações de uma tabela de Excel. Para esta ser limpa na base de dados do phpmyadmin, é necessário usar o comando "TRUNCATE TABLE habilitacoesnaofinal;" no phpmyadmin no  terminal "SQL" para esta ficar vazia de dados.
+
+
+	Nas opções do menu do código é aconselhado, para teste, escolher primeiramente as seguintes opções ( as opções "1", "2" e "3", respetivamente ):
+
+	--> "1 - Escolha um arquivo:
+ 		Introduza a sua escolha:" 1
+
+	--> "   1. DGEEC_DSEE_DEES_2017_ListasRebides_1314.xlsx
+		2. DGEEC_DSEE_DEES_2017_ListasRebides_1415.xlsx
+		3. DGEEC_DSEE_DEES_2017_ListasRebides_1516.xlsx
+		4. DGEEC_DSEE_DEES_2019_ListaREBIDES_IEESP_.xlsx
+		5. DGEEC_DSEE_DEES_ListaDocentes_20162017.xlsx
+		6. DGEEC_DSEE_DEES_ListaDocentes_20172018.xlsx
+		7. DGEEC_DSEE_DEES_ListaDocentes_20182019.xlsx
+		8. DGEEC_DSEE_DEES_ListaIECDES_IEESP_2019.xlsx
+		9. DGEEC_DSEE_DEES_ListaIECDES_IEESP_2020.xlsx
+		10. DGEEC_DSEE_DEES_ListaIECDES_IEESP_2021.xlsx
+		11. DGEEC_DSEE_DEES_ListaIECDES_IEESP_2022.xlsx
+		12. ListasPublicasRebides_RB0304.xlsx
+		13. ListasPublicasRebides_RB0405.xlsx
+		14. ListasPublicasRebides_RB0506.xlsx
+		15. ListasPublicasRebides_RB0607.xlsx
+		16. ListasPublicasRebides_RB0708.xlsx
+		17. ListasPublicasRebides_RB0809.xlsx
+		18. ListasPublicasRebides_RB0910.xlsx
+		19. ListasPublicasRebides_RB1011.xlsx
+		20. ListasPublicasRebides_RB1112.xlsx
+		21. ListasPublicasRebides_RB1213.xlsx
+		Introduza o número do ficheiro que deseja selecionar:" 2
+
+
+	-->"	SelecionouC:/Users/migue/OneDrive/Imagens/Dataset\DGEEC_DSEE_DEES_2017_ListasRebides_1415.xlsx
+		1. Capa
+		2. CarreiraAtividades1415
+		3. Habilitacoes1415
+		Introduza o número da folha que deseja selecionar:" 3
+
+	
+	Para os caminhos do código não ficarem comprometidos devido aos diversos caracteres no nome das pastas que foram entregues, é aconselhável colocar no ambiente de trabalho, do computador em questão, o arquivo "Primeiro momento de avaliação".
+
+
